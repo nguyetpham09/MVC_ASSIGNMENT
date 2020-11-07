@@ -1,0 +1,30 @@
+Tất cả các username có password là 123456
+Folder gồm:
+src/controller:
+	+ CheckLoginServlet.java
+	+ CheckServlerAdd.java
+	+ CheckDeleteServlet.java
+	+ CheckUpdateServlet.java
+	+ CheckSearchServlet.java
+src/model.BEAN:
+	+ Faculty.java
+	+ Student.java
+src/model.BO
+	+ CheckAddStudentBO.java
+	+ CheckDeleteBO.java
+	+ CheckLoginBO.java
+	+ CheckUpdateBO.java
+src/model.DAO
+	+CheckAddStudentDAO.java
+	+ CheckDeleteDAO.java
+	+ CheckLoginDAO.java
+	+ CheckUpdateDAO.java
+WebContent:
+	+ add_new_student.jsp
+	+ delete_student.jsp
+	+ fail_add.jsp
+	+ fail_delete.jsp
+	+ fail_update.jsp
+	+ login.jsp
+	+ student_list.jsp
+	+ update_student_infor.jsp
